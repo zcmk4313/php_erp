@@ -1,8 +1,8 @@
 <?php
 $cfg_webname = 'ERP SYSTEM';
-$cfg_basehost = 'http://192.168.1.135';
+$cfg_basehost = 'http://toro.de5.net';
 $cfg_cmspath = '';
-$cfg_cookie_encode = 'LeWLg4650W';
+$cfg_cookie_encode = 'BcQFl7191K';
 $cfg_indexurl = '/';
 $cfg_adminemail = 'sy@suyang.com';
 $cfg_backup_dir = 'backup_data';
