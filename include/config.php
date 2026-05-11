@@ -4,11 +4,13 @@ Function CopyRight(){
 echo "<div id='copyright'>Powered By www.suyi1995.com &copy; 2019~2030</div>";
 }
 
-Function WriteNote($msg,$date,$ip,$user){
-$nsql=New Dedesql();
-$notesql="insert into #@__recordline(message,date,ip,userid) values('{$msg}','{$date}','{$ip}','$user')";
-$nsql->ExecuteNoneQuery($notesql);
-$nsql->close();
+if (!function_exists('WriteNote')) {
+    function WriteNote($msg, $date, $ip, $user) {
+        $nsql = new Dedesql();
+        $notesql = "insert into #@__recordline(message,date,ip,userid) values('{$msg}','{$date}','{$ip}','$user')";
+        $nsql->ExecuteNoneQuery($notesql);
+        $nsql->close();
+    }
 }
 
 Function getcategories($id,$reid,$event){
