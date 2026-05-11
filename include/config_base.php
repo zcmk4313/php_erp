@@ -133,9 +133,9 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Database connection settings
 $cfg_dbhost = 'localhost';
-$cfg_dbname = 'jwadixyz_erp';
-$cfg_dbuser = 'jwadixyz_erp';
-$cfg_dbpwd = 'VgGVsxd49Cfz936LxC7h';
+$cfg_dbname = '';
+$cfg_dbuser = '';
+$cfg_dbpwd = '';
 $cfg_dbprefix = 'sy_';
 $cfg_db_language = 'utf8';
 
